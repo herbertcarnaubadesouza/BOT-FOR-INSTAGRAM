@@ -46,7 +46,12 @@ class BotInstagram():
 
 bot = BotInstagram()
 bot.entrar_link("https://www.instagram.com/")
+
+
+# NESSE TIME DE 15 SEGUNDOS VOCÊ POEM MANUALMENTE SEU USER E SEU EMAIL NO INSTA
 time.sleep(15)
+
+
 bot.entrar_link("https://www.instagram.com/cristiano/")
 time.sleep(2)
 links_fotos = bot.pegar_link_das_fotos()
